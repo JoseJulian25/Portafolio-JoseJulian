@@ -1,0 +1,340 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.contenido-header{
+    background-color: #F5F5F5;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F5F5F5;
+    align-items: center;
+}
+
+header{
+    padding: 1em 0;
+}
+
+.titulo-header{
+    margin-left: 2em;
+    font-weight: 700;
+    color: #464646;
+}
+
+.navegacion{
+    margin: 0 1em;
+}
+
+.navegacion ul{
+    display: flex;
+    margin: 0 1em;
+}
+
+.listas a{
+    padding: 0 1.5em 1em 1.5em;
+    font-weight: 600;
+    color: #464646;
+    text-decoration: none;
+}
+
+
+.listas-primero{
+    border-bottom: 2px solid #464646 ;
+}
+
+.listas a:hover{
+    border-bottom: 2px solid #464646 ;
+}
+
+
+
+.contenido-principal{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #F5F5F5;
+    padding: 2em 0 2em 2em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenido-principal-textos{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-descriptivo h2{
+    font-weight: 700;
+    font-size: 3em;
+}
+
+.texto-descriptivo p{
+    font-size: 20px;
+    line-height: 1.8rem;
+    padding: 1em 0 3em 0;
+}
+
+.redes ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.listas-redes a{
+    padding: 1em;
+    color: #464646;
+}
+
+.foto-principal{
+    width: 30%;
+}
+
+.foto{
+    width: 100%;
+}
+   
+.contenedor-azul{
+    padding: 4em 0;
+    background-color: #EAF2FD;
+}
+
+.informacion-personal{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.informacion-personal h2{
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.informacion-personal p{
+    padding: .5em 0;
+    line-height: 1.8rem;
+}
+
+.container{
+    background-color: #F5F5F5;
+    padding: 3em 0;
+}
+
+.contenedor-skills-hobbies{
+    padding: 1em 0;
+}
+.titulos{
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+    padding: 1em 0;
+    color: #464646;
+}
+
+.contenedor-box ul{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-box:nth-child(2){
+    padding-bottom: 2em;
+}
+
+.box-skills-hobbies{
+    background-color: #FFFFFF;
+    width: 120px;
+    height: 120px;   
+    margin: 0 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: .5em .5em;
+   
+}
+
+.box-skills-hobbies p{
+    font-weight: 700;
+    padding: .5em 0;
+}
+
+.logos{
+    width: 28px;
+}
+
+.contenedor-formaciones ul{
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+}
+
+.listas-formaciones h3{
+    font-weight: 700;
+}
+
+.listas-formaciones p{
+    font-size: 14px;
+    color: #808080;
+}
+
+.contenedor-proyectos{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    padding: 4em 0;
+}
+
+.imagen-proyectos{
+    width: 60%;
+}
+
+.imagen-proyectos img{
+    width: 100%;
+}
+
+.info-proyectos{
+    display: flex;
+    margin: 0 2em;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+
+.titulos-proyectos{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.descripcion-proyectos{
+    font-size: 14px;
+    font-style: italic;
+    padding: .5rem 0;
+}
+
+.botones-proyectos{
+    margin: .5em 0;
+    
+}
+
+.boton-repositorio{
+    background-color: transparent;
+    border-color: #2A7AE4;
+    padding: 1em 1em;
+    color: #2A7AE4;
+    font-family:'Raleway', sans-serif ;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.boton-prueba{
+    padding: 1em 1em;
+    font-family:'Raleway', sans-serif ;
+    font-size: 17px;
+    background-color: #2A7AE4;
+    border-color: #3687f1;
+    cursor: pointer;
+    
+}
+
+.boton-prueba:hover{
+    transition: .5s;
+    background-color: #3687f1;
+}
+
+.boton-repositorio a{
+    color: #2A7AE4;
+    text-decoration: none;
+}
+
+.boton-prueba a{
+    color: white;
+    text-decoration: none;
+}
+
+.opuesto{
+    flex-direction: row-reverse;
+}
+
+.contenedor-contacto{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.last{
+    text-align: start;
+    padding: 0 0;
+}
+
+.imagen-contacto img{
+    width: 100%;
+    height: 100%;
+}
+
+.info-contacto{
+    padding: 0 2em;
+    width: 50%;
+}
+
+.texto-contacto{
+    padding: 1em 0;
+}
+
+.texto-contacto p{
+    line-height: 1.3em;
+}
+
+.formulario-contacto{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-contacto{
+    font-family:'Raleway', sans-serif ;
+    margin-bottom: 1em ;
+    padding: .5em;
+    font-size: 17px;
+    outline-color: #2A7AE4;
+    border-radius: 10px;
+    border: none;
+
+}
+
+label{
+    font-weight: bold;
+    padding: .5em 0;
+}
+
+.textarea{
+    resize: none;
+}
+
+.boton-formulario{
+    width:30%;
+    margin-top: 2em;
+    padding: 1em;
+    font-size: 17px;
+    background-color: #2A7AE4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+}
+
+.boton-formulario:hover{
+    transition: .5s;
+    background-color: #3687f1;
+}
+
+footer{
+    padding: 2em 0;
+    background-color: #F5F5F5;
+    text-align: center;
+}
+
+footer span{
+    opacity: 70%;
+    font-size: .9em;
+}
+
+.correo{
+    display: none;
+}

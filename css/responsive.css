@@ -1,0 +1,141 @@
+@media only screen and (max-width: 630px){
+
+    .contenido-principal{
+        padding: 1em;
+    }
+
+    .contenido-principal-textos{
+        width: 100%;
+    }
+
+    .foto-principal{
+        width: 50%;
+    }
+
+    .contenedor-box ul{
+       flex-wrap: wrap;
+    }
+
+    .box-skills-hobbies{
+        width: 30%;
+        margin: 0 .5em 1em 
+    }
+
+    .contenedor-formaciones ul{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .listas-formaciones, .info-contacto{
+        width: 100%;
+    }
+
+    .listas-formaciones img{
+        width: 60%;
+    }
+
+    .contenedor-proyectos{
+        flex-direction: column;
+    }
+
+    .imagen-proyectos{
+        width: 100%;
+        margin-bottom: 1em;
+    }
+
+    .info-proyectos{
+        width: 100%;
+        margin: 0;
+    }
+    .botones-proyectos{
+        display: flex;
+        gap: 1em;
+    }
+
+    .imagen-contacto{
+        display: none;
+    }
+
+    .listas{
+        display: none;
+    }
+
+   .correo{
+    display: inline-block;
+    font-weight: 600;
+    color: #464646;
+    text-decoration: none;
+   }
+   .contenido-principal{
+    flex-direction: column-reverse;
+   }
+   .redes ul{
+    font-weight: bold;
+   }
+
+   .boton-formulario{
+    width: 50%;
+   }
+
+}
+
+@media (max-width: 434px) {
+   header{
+    flex-direction: column;
+    gap: .5em;
+   }
+
+   .titulo-header{
+    margin: 0;
+   }
+
+   .info-contacto{
+    padding: 0;
+   }
+
+   .texto-descriptivo h2{
+    font-size: 2.7em;
+   }
+
+   .listas-redes a{
+    text-decoration: none;
+   }
+
+   .correo{
+    display: none;
+   }
+
+   
+}
+
+@media (min-width: 630px) and (max-width: 883px){
+    header{
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .contenedor-box ul{
+        flex-wrap: wrap;
+     }
+ 
+     .box-skills-hobbies{
+         width: 30%;
+         margin: 0 .5em 1em 
+     }
+ 
+     .contenedor-formaciones ul{
+         flex-direction: column;
+         text-align: center;
+     }
+
+     .boton-formulario{
+        width: 50%;
+     }
+}
+    
+@media (max-width: 375px){
+    .listas-redes {
+        border-bottom: 2px solid #464646 ;;
+        margin: 0 .3em
+    }
+}
