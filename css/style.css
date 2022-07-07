@@ -110,6 +110,7 @@ header{
 }
 
 .informacion-personal p{
+    width: 70%;
     padding: .5em 0;
     line-height: 1.8rem;
 }
