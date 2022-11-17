@@ -59,13 +59,6 @@
     .listas{
         display: none;
     }
-
-   .correo{
-    display: inline-block;
-    font-weight: 600;
-    color: #464646;
-    text-decoration: none;
-   }
    .contenido-principal{
     flex-direction: column-reverse;
    }
@@ -77,35 +70,21 @@
     width: 50%;
    }
 
+   .texto-descriptivo h2{
+    font-size: 2.2em;
 }
 
-@media (max-width: 434px) {
-   header{
-    flex-direction: column;
-    gap: .5em;
-   }
+    .texto-descriptivo p{
+        font-size: 1em;
+    }
 
-   .titulo-header{
-    margin: 0;
-   }
+    .info-contacto{
+        padding: 0;
+    }
 
-   .info-contacto{
-    padding: 0;
-   }
-
-   .texto-descriptivo h2{
-    font-size: 2.7em;
-   }
-
-   .listas-redes a{
-    text-decoration: none;
-   }
-
-   .correo{
-    display: none;
-   }
-
-   
+    video{
+        width: 100%;
+    }
 }
 
 @media (min-width: 630px) and (max-width: 883px){
@@ -131,13 +110,6 @@
      .boton-formulario{
         width: 50%;
      }
-}
-    
-@media (max-width: 375px){
-    .listas-redes {
-        border-bottom: 2px solid #464646 ;;
-        margin: 0 .3em
-    }
 }
 
 @media (max-width:903px) {

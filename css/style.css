@@ -283,46 +283,8 @@ header{
     line-height: 1.3em;
 }
 
-.formulario-contacto{
-    display: flex;
-    flex-direction: column;
-}
-
-.input-contacto{
-    font-family:'Raleway', sans-serif ;
-    margin-bottom: 1em ;
-    padding: .5em;
-    font-size: 17px;
-    outline-color: #2A7AE4;
-    border-radius: 10px;
-    border: none;
-
-}
-
-label{
-    font-weight: bold;
-    padding: .5em 0;
-}
-
 .textarea{
     resize: none;
-}
-
-.boton-formulario{
-    width:30%;
-    margin-top: 2em;
-    padding: 1em;
-    font-size: 17px;
-    background-color: #2A7AE4;
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-family: 'Raleway', sans-serif;
-}
-
-.boton-formulario:hover{
-    transition: .5s;
-    background-color: #3687f1;
 }
 
 footer{
@@ -338,4 +300,107 @@ footer span{
 
 .correo{
     display: none;
+}
+
+video{
+    width: 100%;
+}
+
+.agregar-producto{
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.form__title{
+    color: #454545;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.form__group{
+    position: relative;
+    width: 90%;
+    margin: 1.5rem 0;
+    
+}
+
+.form__input{
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 5px #d3d2d2;
+    width: 100%;
+    outline: none;
+    color: #454545;
+    padding: 1.7rem 1rem .5rem .5rem ;
+    font-size: 1.1rem;
+}
+
+.form__label{
+    color: #454545c5;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 7px;
+    transform: translateY(20px);
+    transition: transform .5s, color .3s;
+}
+
+.form__input:focus + .form__label, .form__input:not(:placeholder-shown) + .form__label{
+    transform: translateY(4px) scale(.8);
+    transform-origin: left top;
+    color: #3866f2;
+}
+
+.form__input:focus{
+    border-bottom: 1px solid #0058fc;
+}
+
+.form__group-submit{
+    position: relative;
+}
+
+.bi-pencil-fill{
+    position: absolute;
+    top: 20px;
+    left: 145px;
+    color: white;
+}
+
+.form__submit{
+    width: 30%;
+    padding: 1rem 1rem;
+    position: relative;
+    cursor: pointer;
+    font-family:'Raleway', sans-serif;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #0275d8;
+    box-shadow: 1px 1px 5px #949393;
+}
+
+.form__submit:hover{
+    background-color: #0058fc;
+    transition: .3s;
+}
+
+.form__titulo-alerta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bi-plus-circle{
+    color: white;
+    position: absolute;
+    bottom: 16px;
+    left: 160px;
+}
+
+.form__input-textarea{
+    resize: none;
 }
